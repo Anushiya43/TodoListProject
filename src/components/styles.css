@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  padding: fixed;
+  padding-bottom: 2cm;
+  background-color: rgba(175, 29, 29, 0.6);
+  color: white;
+  height: max-content;
+  width: 50%;
+  gap: 1cm;
+  
+}
+.A {
+  background-color: rgba(199, 38, 38, 0.3);
+}
+.Header {
+  display: grid;
+  text-align: center;
+  color: black;
+  height: 2.2cm;
+}
+
+table {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+}
+td,
+th {
+  padding-bottom: 1.5cm;
+  border: black;
+  border-bottom-color: rgb(15, 4, 4);
+}
+
+.icon {
+  height: 0.5cm;
+  width: 0.5cm;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 255, 0.6);
+  border-radius: 0.1cm;
+}
+label {
+  text-align: left;
+}
+
+.search {
+  height: 1cm;
+  align-content: center;
+}
+
+input,
+select {
+  height: 0.7cm;
+  width: 10cm;
+}
+
+button {
+  height: 0.7cm;
+  width: 2.5cm;
+}
+
+.Body {
+  display: flex;
+}
